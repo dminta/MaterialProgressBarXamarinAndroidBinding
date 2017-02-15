@@ -8,7 +8,7 @@
 
 <resources>
 
-    <string name="app_name">MaterialProgressBar Xamarin Sample</string>
+    <string name="app_name">MaterialProgressBar Xamarin Binding Sample</string>
 
     <string name="framework_implementation">Framework Implementation</string>
     <string name="library_implementation">Library Implementation</string>
