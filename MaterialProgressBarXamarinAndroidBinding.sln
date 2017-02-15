@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialProgressBarXamarinAndroidBinding", "MaterialProgressBarXamarinAndroidBinding\MaterialProgressBarXamarinAndroidBinding.csproj", "{81112AE5-9558-479D-A382-E5E9816A9566}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialProgressBar", "MaterialProgressBar\MaterialProgressBar.csproj", "{81112AE5-9558-479D-A382-E5E9816A9566}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialProgressBarXamarinAndroidBinding.Sample", "MaterialProgressBarXamarinAndroidBinding.Sample\MaterialProgressBarXamarinAndroidBinding.Sample.csproj", "{5AB0DFD4-EB5F-46F3-BFAD-98616111612E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialProgressBar.Sample", "MaterialProgressBar.Sample\MaterialProgressBar.Sample.csproj", "{5AB0DFD4-EB5F-46F3-BFAD-98616111612E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

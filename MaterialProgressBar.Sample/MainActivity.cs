@@ -5,7 +5,7 @@ using Android.OS;
 using Android.Support.V7.App;
 using Android.Views;
 
-namespace MaterialProgressBarXamarinAndroidBinding.Sample
+namespace MaterialProgressBar.Sample
 {
 	[Activity(Label = "@string/app_name", MainLauncher = true, LaunchMode = LaunchMode.SingleTop)]
 	public class MainActivity : AppCompatActivity

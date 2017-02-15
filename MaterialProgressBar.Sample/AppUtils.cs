@@ -5,7 +5,7 @@ using Android.Support.V4.App;
 
 using TaskStackBuilder = Android.Support.V4.App.TaskStackBuilder;
 
-namespace MaterialProgressBarXamarinAndroidBinding.Sample
+namespace MaterialProgressBar.Sample
 {
 	public static class AppUtils
 	{

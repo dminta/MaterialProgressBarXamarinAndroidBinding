@@ -10,8 +10,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MaterialProgressBarXamarinAndroidBinding.Sample</RootNamespace>
-    <AssemblyName>MaterialProgressBarXamarinAndroidBinding.Sample</AssemblyName>
+    <RootNamespace>MaterialProgressBar.Sample</RootNamespace>
+    <AssemblyName>MaterialProgressBar.Sample</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -97,7 +97,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
@@ -148,9 +147,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MaterialProgressBarXamarinAndroidBinding\MaterialProgressBarXamarinAndroidBinding.csproj">
+    <ProjectReference Include="..\MaterialProgressBar\MaterialProgressBar.csproj">
       <Project>{81112ae5-9558-479d-a382-e5e9816a9566}</Project>
-      <Name>MaterialProgressBarXamarinAndroidBinding</Name>
+      <Name>MaterialProgressBar</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

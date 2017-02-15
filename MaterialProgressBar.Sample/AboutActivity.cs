@@ -7,7 +7,7 @@ using Android.Views;
 using Android.Widget;
 using CheeseBind;
 
-namespace MaterialProgressBarXamarinAndroidBinding.Sample
+namespace MaterialProgressBar.Sample
 {
 	[Activity(Label = "@string/about_title", LaunchMode = LaunchMode.SingleTop)]
 	[MetaData("android.support.PARENT_ACTIVITY", Value="MaterialProgressBarSample.MainActivity")]

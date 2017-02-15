@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("MaterialProgressBarXamarinAndroidBinding.Sample.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("MaterialProgressBar.Sample.Resource", IsApplication=true)]
 
-namespace MaterialProgressBarXamarinAndroidBinding.Sample
+namespace MaterialProgressBar.Sample
 {
 	
 	
