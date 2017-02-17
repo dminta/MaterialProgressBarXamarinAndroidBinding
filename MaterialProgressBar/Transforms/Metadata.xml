@@ -7,5 +7,5 @@
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
 	<attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']" 
-	    name="managedName">Zhanghai.Android.MaterialProgressBar</attr>
+	    name="managedName">ZhangHai.Android.MaterialProgressBar</attr>
 </metadata>

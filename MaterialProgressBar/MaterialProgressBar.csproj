@@ -11,7 +11,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MaterialProgressBar</RootNamespace>
-    <AssemblyName>Zhanghai.Android.MaterialProgressBar</AssemblyName>
+    <AssemblyName>ZhangHai.Android.MaterialProgressBar</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>

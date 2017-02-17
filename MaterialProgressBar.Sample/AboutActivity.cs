@@ -31,7 +31,7 @@ namespace MaterialProgressBar.Sample
 
 			SupportActionBar.SetDisplayHomeAsUpEnabled(true);
 
-			string version = GetString(Resource.String.about_version_format, Zhanghai.Android.MaterialProgressBar.BuildConfig.VersionName);
+			string version = GetString(Resource.String.about_version_format, ZhangHai.Android.MaterialProgressBar.BuildConfig.VersionName);
 			mVersionText.Text = version;
 			mGithubText.MovementMethod = LinkMovementMethod.Instance;
 			mXamarinBindingGithub.MovementMethod = LinkMovementMethod.Instance;
