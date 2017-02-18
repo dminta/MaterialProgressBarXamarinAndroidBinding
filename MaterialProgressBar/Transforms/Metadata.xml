@@ -6,6 +6,11 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
-	<attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']" 
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']"
 	    name="managedName">ZhangHai.Android.MaterialProgressBar</attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar.internal']"
+	    name="managedName">ZhangHai.Android.MaterialProgressBar.Internal</attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='BasePaintDrawable']" name="extends">java.lang.Object</attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='IndeterminateHorizontalProgressDrawable']" name="extends">java.lang.Object</attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='IndeterminateProgressDrawable']" name="extends">java.lang.Object</attr>
 </metadata>
