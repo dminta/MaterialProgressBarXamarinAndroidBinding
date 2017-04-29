@@ -10,13 +10,14 @@ Material Design `ProgressBar` with consistent appearance on Android 4.0+.
 - Correct tinting across platforms.
 - Able to remove the intrinsic padding of framework `ProgressBar`.
 - Able to hide the progress background of framework horizontal `ProgressBar`.
+- Able to show a determinate circular progress.
 - Used as a drop-in replacement for framework `ProgressBar`.
 
 See [MaterialProgressBar library repository](https://github.com/DreaminginCodeZH/MaterialProgressBar/) for more details.
 
 ## Binding and sample code
 
-Library binding is using MaterialProgressBar AAR package v1.3.0.
+Library binding is using MaterialProgressBar AAR package v1.4.1.
 
 Sample code is based on MaterialProgressBar sample code and its resources. [Butter Knife](https://github.com/JakeWharton/butterknife) library was replaced with [Cheeseknife](https://github.com/MisterJimson/Cheeseknife).
 

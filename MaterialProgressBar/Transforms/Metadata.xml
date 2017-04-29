@@ -12,9 +12,14 @@
 	    name="managedName">ZhangHai.Android.MaterialProgressBar.Internal</attr>
   <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='BaseDrawable']" name="visibility">public</attr>
   <remove-note path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='BasePaintDrawable']/method[@name='getColorFilter' and count(parameter)=0]" />
-  <remove-node path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='BasePaintDrawable']/method[@name='setColorFilter' and count(parameter)=1 and parameter[1][@type='android.graphics.ColorFilter']]" />
-  <remove-node path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='BasePaintDrawable']/method[@name='getConstantState' and count(parameter)=0]" />
   <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='BaseProgressDrawable']" name="visibility">public</attr>
   <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='BaseIndeterminateProgressDrawable']" name="visibility">public</attr>
   <remove-node path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='BaseIndeterminateProgressDrawable']/field[@name='mAnimators']" />
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='BasePaintDrawable']" name="visibility">public</attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='BaseProgressLayerDrawable']" name="visibility">public</attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/interface[@name='MaterialProgressDrawable']" name="visibility">public</attr>
+  <remove-node path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='IndeterminateCircularProgressDrawable']/method[@name='setColorFilter' and count(parameter)=1 and parameter[1][@type='android.graphics.ColorFilter']]" />
+  <remove-node path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='IndeterminateCircularProgressDrawable']/method[@name='getConstantState' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='IndeterminateHorizontalProgressDrawable']/method[@name='setColorFilter' and count(parameter)=1 and parameter[1][@type='android.graphics.ColorFilter']]" />
+  <remove-node path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='IndeterminateHorizontalProgressDrawable']/method[@name='getConstantState' and count(parameter)=0]" />
 </metadata>

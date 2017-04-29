@@ -1,23 +1,48 @@
-﻿using Android.App;
+﻿using Android.Animation;
+using Android.App;
 using Android.Content;
 using Android.Content.PM;
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Views;
+using Android.Widget;
 
 namespace MaterialProgressBar.Sample
 {
 	[Activity(Label = "@string/app_name", MainLauncher = true, LaunchMode = LaunchMode.SingleTop)]
 	public class MainActivity : AppCompatActivity
 	{
-		protected override void OnCreate(Bundle savedInstanceState)
+        ProgressBar[] mDeterminateCircularProgressBars;
+        ValueAnimator mDeterminateCircularProgressAnimator;
+
+        protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 
 			SetContentView(Resource.Layout.main_activity);
-		}
 
-		public override bool OnCreateOptionsMenu(IMenu menu)
+            mDeterminateCircularProgressBars = this.BindViews<ProgressBar>(Resource.Id.determinate_circular_large_progress,
+                Resource.Id.determinate_circular_progress,
+                Resource.Id.determinate_circular_small_progress);
+
+            mDeterminateCircularProgressAnimator = Animators.MakeDeterminateCircularPrimaryProgressAnimator(mDeterminateCircularProgressBars);
+        }
+
+        public override void OnAttachedToWindow()
+        {
+            base.OnAttachedToWindow();
+
+            mDeterminateCircularProgressAnimator.Start();
+        }
+
+        public override void OnDetachedFromWindow()
+        {
+            base.OnDetachedFromWindow();
+
+            mDeterminateCircularProgressAnimator.End();
+        }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
 		{
 			MenuInflater.Inflate(Resource.Menu.menu_main, menu);
 			return true;
@@ -29,9 +54,13 @@ namespace MaterialProgressBar.Sample
 			{
 				case Resource.Id.action_about:
 					StartActivity(new Intent(this, typeof(AboutActivity)));
-					break;
-			}
-			return base.OnOptionsItemSelected(item);
+                    return true;
+                case Resource.Id.action_determinate_circular_sample:
+                    StartActivity(new Intent(this, typeof(DeterminateCircularSampleActivity)));
+                    return true;
+                default:
+                    return base.OnOptionsItemSelected(item);
+            }
 		}
 	}
 }
