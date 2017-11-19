@@ -17,7 +17,7 @@ See [MaterialProgressBar library repository](https://github.com/DreaminginCodeZH
 
 ## Binding and sample code
 
-Library binding is using MaterialProgressBar AAR package v1.4.1.
+Library binding is using MaterialProgressBar AAR package v1.4.2.
 
 Sample code is based on MaterialProgressBar sample code and its resources. [Butter Knife](https://github.com/JakeWharton/butterknife) library was replaced with [Cheeseknife](https://github.com/MisterJimson/Cheeseknife).
 

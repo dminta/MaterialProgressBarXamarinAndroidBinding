@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>ZhangHai.Android.MaterialProgressBar</id>
-    <version>1.4.1.0</version>
+    <version>1.4.2.0</version>
     <authors>Dominik Minta</authors>
     <owners>Dominik Minta</owners>
     <licenseUrl>https://github.com/dminta/MaterialProgressBarXamarinAndroidBinding/blob/master/LICENSE</licenseUrl>
@@ -10,13 +10,13 @@
     <iconUrl>https://raw.githubusercontent.com/dminta/MaterialProgressBarXamarinAndroidBinding/master/art/launcher_icon-web.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>MaterialProgressBar library binding for Xamarin Android (https://github.com/DreaminginCodeZH/MaterialProgressBar)</description>
-    <releaseNotes>AAR updated to version 1.4.1</releaseNotes>
+    <releaseNotes>AAR updated to version 1.4.2</releaseNotes>
     <tags>xamarin android xamarin.android monodroid material</tags>
     <dependencies>
-      <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.3.1" />
+      <dependency id="Xamarin.Android.Support.v7.AppCompat" version="26.0.2" />
     </dependencies>
   </metadata>
   <files>
-    <file src="..\MaterialProgressBar\bin\Release\ZhangHai.Android.MaterialProgressBar.dll" target="lib\MonoAndroid71\ZhangHai.Android.MaterialProgressBar.dll" />
+    <file src="..\MaterialProgressBar\bin\Release\ZhangHai.Android.MaterialProgressBar.dll" target="lib\MonoAndroid80\ZhangHai.Android.MaterialProgressBar.dll" />
   </files>
 </package>
