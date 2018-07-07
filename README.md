@@ -1,4 +1,4 @@
-# MaterialProgressBar library binding for Xamarin Android
+# MaterialProgressBar binding for Xamarin.Android
 
 ![Icon](art/launcher_icon-web.png)
 
@@ -13,13 +13,13 @@ Material Design `ProgressBar` with consistent appearance on Android 4.0+.
 - Able to show a determinate circular progress.
 - Used as a drop-in replacement for framework `ProgressBar`.
 
-See [MaterialProgressBar library repository](https://github.com/DreaminginCodeZH/MaterialProgressBar/) for more details.
+[MaterialProgressBar - more information](https://github.com/DreaminginCodeZH/MaterialProgressBar)
 
 ## Binding and sample code
 
-Library binding is using MaterialProgressBar AAR package v1.4.2.
+Bindings library contains MaterialProgressBar v1.4.2 prebuilt AAR.
 
-Sample code is based on MaterialProgressBar sample code and its resources. [Butter Knife](https://github.com/JakeWharton/butterknife) library was replaced with [Cheeseknife](https://github.com/MisterJimson/Cheeseknife).
+Sample project is based on MaterialProgressBar sample code and its resources. [Butter Knife](https://github.com/JakeWharton/butterknife) library was replaced with [Cheeseknife](https://github.com/MisterJimson/Cheeseknife).
 
 ## Usage
 
@@ -27,10 +27,8 @@ Sample code is based on MaterialProgressBar sample code and its resources. [Butt
 
 or 
 
-* Install [ZhangHai.Android.MaterialProgressBar](https://www.nuget.org/packages/ZhangHai.Android.MaterialProgressBar/) package from nuget.org
+* Install [ZhangHai.Android.MaterialProgressBar](https://www.nuget.org/packages/ZhangHai.Android.MaterialProgressBar) prebuilt package from nuget.org
 
 ## License
 
-[MaterialProgressBar](https://github.com/DreaminginCodeZH/MaterialProgressBar/) is licensed under the Apache License, Version 2.0.
-
-Source code from this repository is licensed under the Apache License, Version 2.0. See LICENSE file.
+The license for this repository is specified in [LICENSE](LICENSE).
